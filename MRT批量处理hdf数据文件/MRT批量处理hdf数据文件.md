@@ -2,49 +2,55 @@
 
 1、安装jdk以及MRT
 
-2、进入MRT安装目录，bin文件夹下双击“ModisTool.jar"文件，打开界面如下：
+2、进入MRT安装目录，在bin文件夹下双击“ModisTool.jar"
 
-<img src="https://mmbiz.qpic.cn/mmbiz_png/s10FkKtzXayg3Wopb0cU1vELQvwkeiaaA47BWCunicqJZxt2pstmTMG7X6ic0xG3HVjHFwFk2icK1fKMCTsUjtAUqw/640?wx_fmt=png" title="" alt="" width="319">
+<img title="" src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/1.PNG" alt="1.PNG" width="462">
 
-3、点击![](C:\Users\GF\AppData\Roaming\marktext\images\2025-05-04-11-32-46-image.png)按键按钮导入待处理的.hdf文件
+打开界面如下：
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-32-19-image.png" title="" alt="" width="405">
+<img title="" src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/2.PNG" alt="2.PNG" width="463">
 
-4、选择要保留的波段
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-34-59-image.png" title="" alt="" width="297">
 
-5、选择输出的文件名与路径
+3、点击"Open lnput File..."按键按钮导入待处理的.hdf文件
 
-![](C:\Users\GF\AppData\Roaming\marktext\images\2025-05-04-11-37-38-image.png)
+<img src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/3.PNG" title="" alt="3.PNG" width="466">
 
-6、选择输出图像的投影类型
+4、将不想要输出的波段选择并点击"<<"按钮移动至左边
 
-![](C:\Users\GF\AppData\Roaming\marktext\images\2025-05-04-11-38-37-image.png)
+<img title="" src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/4.PNG" alt="4.PNG" width="469">
 
-7、点击![](C:\Users\GF\AppData\Roaming\marktext\images\2025-05-04-11-39-13-image.png)按钮进行选择投影
+5、点击'Specify Output File...'按钮选择输出的文件类型与路径，在'Resampling Type'中选择重采样类型
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-40-29-image.png" title="" alt="" width="301">
+![5.PNG](F:\GF\Github\My%20GIS%20skills\MRT批量处理hdf数据文件\images\5.PNG)
+
+6、点击'Out普通 Projection Type'选择输出图像的投影类型
+
+![6.PNG](F:\GF\Github\My%20GIS%20skills\MRT批量处理hdf数据文件\images\6.PNG)
+
+7、点击'Edit Projection ParaMeters...'按钮修改投影参数
+
+<img src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/7.PNG" title="" alt="7.PNG" width="310">
 
 8、在左下角输入裁剪的范围
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-41-39-image.png" title="" alt="" width="300">
+<img title="" src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/8.PNG" alt="8.PNG" width="304">
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-46-34-image.png" title="" alt="" width="304">
+<img src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/10.PNG" title="" alt="10.PNG" width="307">
 
-9、点击![](C:\Users\GF\AppData\Roaming\marktext\images\2025-05-04-11-46-01-image.png)按钮将prm文件进行保存
+9、点击'Save Parameter File'按钮将prm文件进行保存
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-45-39-image.png" title="" alt="" width="312">
+<img src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/9.PNG" title="" alt="9.PNG" width="307">
 
 10、点击"Run"按钮既可以对单张进行波段提取
 
 11、在MRT目录下bin文件夹中唤出cmd命令行窗口
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-54-20-image.png" title="" alt="" width="354">
+<img src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/11.PNG" title="" alt="11.PNG" width="352">
 
 12、输入"java -jar MRTBatch.jar -d E:\GF\Desktop\测试 -p E:\GF\Desktop\测试\1.prm -o E:\GF\Desktop\测试\output1"命令
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-52-15-image.png" title="" alt="" width="366">
+<img title="" src="file:///F:/GF/Github/My%20GIS%20skills/MRT批量处理hdf数据文件/images/12.PNG" alt="12.PNG" width="459">
 
     其中：
 
@@ -56,12 +62,12 @@
 
     点击回车运行再输入：MRTBatch.bat 即可开始批处理
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-56-13-image.png" title="" alt="" width="358">
+![13.PNG](F:\GF\Github\My%20GIS%20skills\MRT批量处理hdf数据文件\images\13.PNG)
 
 13、在输出文件夹即可找到批量提取并裁剪后的波段图像
 
-<img src="file:///C:/Users/GF/AppData/Roaming/marktext/images/2025-05-04-11-57-21-image.png" title="" alt="" width="363">
+![15.PNG](F:\GF\Github\My%20GIS%20skills\MRT批量处理hdf数据文件\images\15.PNG)
 
 14、利用python代码进行批量波段合成并输出
 
-![](C:\Users\GF\AppData\Roaming\marktext\images\2025-05-04-12-01-25-image.png)
+![14.PNG](F:\GF\Github\My%20GIS%20skills\MRT批量处理hdf数据文件\images\14.PNG)
