@@ -39,7 +39,7 @@
 
 <img src="https://github.com/chen-xin713/My-GIS-skills/blob/933356330f7cc1c3c05b50047d1f8037924125da/MRT%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86hdf%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6/images/9.PNG" title="" alt="9.PNG" width="307">
 
-10、点击"Run"按钮既可以对单张进行波段提取
+10、点击"Run"按钮既可以对单张进行波段提取 
 
 11、在MRT目录下bin文件夹中唤出cmd命令行窗口
 
