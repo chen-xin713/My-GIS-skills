@@ -334,6 +334,7 @@ function changeCarPrice() {
   } 
 </script>
 ```
+
 ### watch
 - 作用：监视数据的变化（和`Vue2`中的`watch`作用一致）
 - 特点：`Vue3`中的`watch`只能监视以下**四种数据**：
